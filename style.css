@@ -466,46 +466,43 @@ body {
 		padding: 0; 
 	}  */
 
-    .services-content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-    
+.my-col {
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+}
 
+.my-card {
+    padding: 20px;
+}
+
+.greet-heading {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.small-para {
+    font-size: 1.2em;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
     .my-col {
-        width: calc(33.33% - 20px); /* 33.33% width for each column with a little space for margin */
-        box-sizing: border-box; /* Include padding and border in the width calculation */
-        margin: 10px; /* Add margin for spacing */
+        width: calc(50% - 20px);
     }
+}
 
-    .my-card {
-        padding: 20px;
+@media screen and (max-width: 480px) {
+    .my-col {
+        width: 100%;
     }
-
-    .greet-heading {
-        font-size: 1.5em; /* Adjust the font size as needed */
-        font-weight: bold; /* Make it bolder */
-    }
-
-    .small-para {
-        font-size: 1.5em; /* Adjust the font size as needed */
-    }
-
-	/* .my-row { 
-		display: flex; 
-		align-items: center; 
-		justify-content: space-between; 
-		flex-direction: column; 
-		margin: 2rem 0; 
-		gap: 1rem; 
-	}  */
-
-	/* .my-row .my-col { 
-		text-align: center; 
-		width: 100%; 
-	}  */
+}
 
 	.contact { 
 		padding: 0; 

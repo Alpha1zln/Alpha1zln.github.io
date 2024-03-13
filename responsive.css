@@ -101,6 +101,8 @@
 
 	.portfolio { 
 		padding: 0; 
+		margin-left: 1rem; /* Add margin to the left side */
+        	margin-right: 1rem; /* Add margin to the right side */
 	} 
 
 	.about { 
@@ -125,6 +127,8 @@
 
     .services { 
         padding: 0; 
+	margin-left: 1rem; /* Add margin to the left side */
+        margin-right: 1rem; /* Add margin to the right side */    
     } 
   
     .my-row { 
